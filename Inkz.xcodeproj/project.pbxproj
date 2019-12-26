@@ -13,6 +13,7 @@
 		136DB22123B1965A0076B45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136DB21F23B1965A0076B45A /* Main.storyboard */; };
 		136DB22323B1965C0076B45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136DB22223B1965C0076B45A /* Assets.xcassets */; };
 		136DB22623B1965C0076B45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136DB22423B1965C0076B45A /* LaunchScreen.storyboard */; };
+		136DB23023B2FA630076B45A /* quanta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136DB22F23B2FA630076B45A /* quanta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		136DB22223B1965C0076B45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		136DB22523B1965C0076B45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		136DB22723B1965C0076B45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		136DB22F23B2FA630076B45A /* quanta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quanta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				136DB21923B1965A0076B45A /* AppDelegate.swift */,
 				136DB21B23B1965A0076B45A /* SceneDelegate.swift */,
 				136DB21D23B1965A0076B45A /* ViewController.swift */,
+				136DB22F23B2FA630076B45A /* quanta.swift */,
 				136DB21F23B1965A0076B45A /* Main.storyboard */,
 				136DB22223B1965C0076B45A /* Assets.xcassets */,
 				136DB22423B1965C0076B45A /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				136DB21E23B1965A0076B45A /* ViewController.swift in Sources */,
+				136DB23023B2FA630076B45A /* quanta.swift in Sources */,
 				136DB21A23B1965A0076B45A /* AppDelegate.swift in Sources */,
 				136DB21C23B1965A0076B45A /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C729AZWQM3;
 				INFOPLIST_FILE = Inkz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C729AZWQM3;
 				INFOPLIST_FILE = Inkz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
